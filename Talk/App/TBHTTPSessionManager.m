@@ -33,7 +33,7 @@ NSString * const kTPSBaseURLString                          = @"http://tps.custo
 NSString * const kTPSSocketURLString                        = @"ws://tps.custom.com/engine.io/?transport=websocket&userId=%@&deviceToken=%@";
 
 //base url
-NSString * const kAPIBaseURLString                          = @"http://192.168.0.35:7001/v2/";
+NSString * const kAPIBaseURLString                          = @"http://192.168.0.35:7001/v2/"; //setup your custom server
 
 //socket connect url
 
@@ -45,7 +45,7 @@ NSString * const kUploadURLString                           = @"替换成自己�
 NSString * const kPrivacyURLString                          = @"http://custom.com/site/items";
 
 //account
-NSString * const kAccountBaseURLString                      = @"http://192.168.0.35:7001/account/v1/";
+NSString * const kAccountBaseURLString                      = @"http://192.168.0.35:7001/account/v1/"; //setup your custom server
 
 //容联云通信
 NSString * const kYTXCallURLString                          = @"https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/%@/Calls/Callback?sig=%@";
