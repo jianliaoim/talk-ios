@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RemindView" customModule="Talk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15m-YL-1eI" userLabel="ReminderView">
+                    <rect key="frame" x="30" y="203" width="540" height="195"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REx-1V-fLH" userLabel="TitleView">
+                            <rect key="frame" x="0.0" y="0.0" width="540" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A13-c9-tKm" userLabel="TitleLabel">
+                                    <rect key="frame" x="0.0" y="0.0" width="540" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.98039215690000003" green="0.40784313729999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="A13-c9-tKm" secondAttribute="trailing" id="H30-uN-cnI"/>
+                                <constraint firstAttribute="bottom" secondItem="A13-c9-tKm" secondAttribute="bottom" id="TWV-Vt-QUC"/>
+                                <constraint firstItem="A13-c9-tKm" firstAttribute="top" secondItem="REx-1V-fLH" secondAttribute="top" id="dYI-gc-TVn"/>
+                                <constraint firstItem="A13-c9-tKm" firstAttribute="leading" secondItem="REx-1V-fLH" secondAttribute="leading" id="k8b-D0-XLg"/>
+                                <constraint firstAttribute="height" constant="50" id="p5F-1z-ngS"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2Y-7b-TE8">
+                            <rect key="frame" x="0.0" y="145" width="270" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="c7Z-wS-ICE"/>
+                            </constraints>
+                            <state key="normal" title="cancel">
+                                <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickCancelButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="8Eh-AK-bkt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uR-Ro-aUC">
+                            <rect key="frame" x="270" y="145" width="270" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="234-VE-oTF"/>
+                            </constraints>
+                            <state key="normal" title="bind">
+                                <color key="titleColor" red="0.30980392159999998" green="0.76470588240000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickFinishButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="jDH-YF-LWv"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="解绑后将不能使用该账号登录，但不会对相应团队产生影响" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fC2-yk-7Pw">
+                            <rect key="frame" x="10" y="60" width="520" height="75"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="REx-1V-fLH" secondAttribute="trailing" id="1eG-79-Xjc"/>
+                        <constraint firstItem="fC2-yk-7Pw" firstAttribute="leading" secondItem="15m-YL-1eI" secondAttribute="leading" constant="10" id="A2g-XS-N7i"/>
+                        <constraint firstItem="REx-1V-fLH" firstAttribute="leading" secondItem="15m-YL-1eI" secondAttribute="leading" id="ULU-qi-pge"/>
+                        <constraint firstAttribute="height" constant="195" id="Zdb-vW-Pfy"/>
+                        <constraint firstItem="REx-1V-fLH" firstAttribute="top" secondItem="15m-YL-1eI" secondAttribute="top" id="dKQ-Zp-O6S"/>
+                        <constraint firstAttribute="width" secondItem="P2Y-7b-TE8" secondAttribute="width" multiplier="2:1" id="e8f-ZC-CAq"/>
+                        <constraint firstAttribute="trailing" secondItem="fC2-yk-7Pw" secondAttribute="trailing" constant="10" id="fPE-NY-848"/>
+                        <constraint firstAttribute="bottom" secondItem="9uR-Ro-aUC" secondAttribute="bottom" id="fVe-Pm-IIq"/>
+                        <constraint firstItem="fC2-yk-7Pw" firstAttribute="top" secondItem="REx-1V-fLH" secondAttribute="bottom" constant="10" id="hjd-An-7g6"/>
+                        <constraint firstAttribute="trailing" secondItem="9uR-Ro-aUC" secondAttribute="trailing" id="ifs-PC-kWU"/>
+                        <constraint firstItem="9uR-Ro-aUC" firstAttribute="leading" secondItem="P2Y-7b-TE8" secondAttribute="trailing" id="mCt-gm-PWe"/>
+                        <constraint firstItem="P2Y-7b-TE8" firstAttribute="leading" secondItem="15m-YL-1eI" secondAttribute="leading" id="pDy-V7-6ex"/>
+                        <constraint firstAttribute="bottom" secondItem="P2Y-7b-TE8" secondAttribute="bottom" id="tIr-mo-bXL"/>
+                        <constraint firstItem="9uR-Ro-aUC" firstAttribute="top" secondItem="fC2-yk-7Pw" secondAttribute="bottom" constant="10" id="wWi-7S-Rfm"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="15m-YL-1eI" secondAttribute="trailing" constant="30" id="6MQ-u0-L4x"/>
+                <constraint firstAttribute="centerX" secondItem="15m-YL-1eI" secondAttribute="centerX" id="Rpb-pL-ehE"/>
+                <constraint firstItem="15m-YL-1eI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="SI9-yG-71v"/>
+                <constraint firstAttribute="centerY" secondItem="15m-YL-1eI" secondAttribute="centerY" id="pdQ-j4-rVp"/>
+            </constraints>
+            <connections>
+                <outlet property="DialogView" destination="15m-YL-1eI" id="ESG-hg-Yfi"/>
+                <outlet property="acceptButton" destination="9uR-Ro-aUC" id="GQC-50-7yu"/>
+                <outlet property="cancelButton" destination="P2Y-7b-TE8" id="Mbm-hM-0Xk"/>
+                <outlet property="reminderLabel" destination="fC2-yk-7Pw" id="GDa-fc-wLM"/>
+                <outlet property="titleLabel" destination="A13-c9-tKm" id="ljn-qx-AJ5"/>
+                <outlet property="titleView" destination="REx-1V-fLH" id="AZ7-YF-ylT"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TBTopicMemberCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r4I-j1-YXn">
+                        <rect key="frame" x="15" y="4" width="36" height="36"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="5CT-OT-vb7"/>
+                            <constraint firstAttribute="height" constant="36" id="N9u-nt-OlK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MF-uO-T7E">
+                        <rect key="frame" x="66" y="12" width="114" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Member Name">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Us2-Y8-C5T" customClass="TBButton">
+                        <rect key="frame" x="262" y="0.0" width="58" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="Yjo-GM-n1u"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="ceh-lQ-QDo"/>
+                            <constraint firstAttribute="width" constant="24" id="jiw-If-6xc"/>
+                            <constraint firstAttribute="height" constant="24" id="o0i-Xl-br7"/>
+                        </constraints>
+                        <state key="normal" image="icon-remove">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="jiw-If-6xc"/>
+                                <exclude reference="o0i-Xl-br7"/>
+                            </mask>
+                        </variation>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="r4I-j1-YXn" secondAttribute="centerY" constant="-0.5" id="J3l-TO-iUv"/>
+                    <constraint firstItem="r4I-j1-YXn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="N3O-15-tKm"/>
+                    <constraint firstItem="0MF-uO-T7E" firstAttribute="leading" secondItem="r4I-j1-YXn" secondAttribute="trailing" constant="15" id="Rk4-Dc-70G"/>
+                    <constraint firstItem="r4I-j1-YXn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="aq2-ys-B2b"/>
+                    <constraint firstAttribute="centerY" secondItem="0MF-uO-T7E" secondAttribute="centerY" constant="-0.5" id="dbn-Jb-4ke"/>
+                    <constraint firstItem="Us2-Y8-C5T" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0MF-uO-T7E" secondAttribute="trailing" id="do8-m5-shL"/>
+                    <constraint firstAttribute="centerY" secondItem="Us2-Y8-C5T" secondAttribute="centerY" id="eor-l7-Bsl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Us2-Y8-C5T" secondAttribute="trailing" constant="7" id="ovn-QK-9pA"/>
+                    <constraint firstAttribute="trailing" secondItem="Us2-Y8-C5T" secondAttribute="trailing" id="yXL-p4-Tc7"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="N3O-15-tKm"/>
+                        <exclude reference="ovn-QK-9pA"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellImageView" destination="r4I-j1-YXn" id="Voe-yi-bHR"/>
+                <outlet property="deleteButton" destination="Us2-Y8-C5T" id="1bv-u1-dNM"/>
+                <outlet property="nameLabel" destination="0MF-uO-T7E" id="KGw-3b-AZb"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-remove" width="24" height="24"/>
+    </resources>
+</document>

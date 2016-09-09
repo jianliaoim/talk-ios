@@ -1,0 +1,182 @@
+
+/* Class = "IBUINavigationItem"; title = "AddMember"; ObjectID = "0Ov-HC-RqT"; */
+"0Ov-HC-RqT.title" = "AddMember";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "0gF-xc-lBU"; */
+"0gF-xc-lBU.title" = "Save";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "4Di-ee-jdK"; */
+"4Di-ee-jdK.title" = "Talk";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Base Info"; ObjectID = "4fU-NF-gLs"; */
+"4fU-NF-gLs.headerTitle" = "Base Info";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "5R3-KO-fWt"; */
+"5R3-KO-fWt.title" = "Next";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "6D5-tx-o02"; */
+"6D5-tx-o02.title" = "Talk";
+
+/* Class = "IBUINavigationItem"; title = "Name"; ObjectID = "78Q-Gr-wk8"; */
+"78Q-Gr-wk8.title" = "Name";
+
+/* Class = "IBUISegmentedControl"; 7Hn-8e-5an.segmentTitles[0] = "Joined"; ObjectID = "7Hn-8e-5an"; */
+"7Hn-8e-5an.segmentTitles[0]" = "Joined";
+
+/* Class = "IBUISegmentedControl"; 7Hn-8e-5an.segmentTitles[1] = "Recommend"; ObjectID = "7Hn-8e-5an"; */
+"7Hn-8e-5an.segmentTitles[1]" = "Not joined";
+
+/* Class = "IBUITabBarItem"; title = "Members"; ObjectID = "9RO-9A-dUL"; */
+"9RO-9A-dUL.title" = "Members";
+
+/* Class = "IBUIBarButtonItem"; title = "New Team"; ObjectID = "CDH-Op-ZCe"; */
+"CDH-Op-ZCe.title" = "Add";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Fka-aN-59o"; */
+"Fka-aN-59o.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "IW6-aO-EoV"; */
+"IW6-aO-EoV.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "JRR-l7-OSI"; */
+"JRR-l7-OSI.text" = "Detail";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "LZh-DV-WZy"; */
+"LZh-DV-WZy.title" = "Next";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "MAJ-Hj-jHe"; */
+"MAJ-Hj-jHe.title" = "Cancel";
+
+/* Class = "IBUIBarButtonItem"; title = "Setting"; ObjectID = "N3p-41-xdX"; */
+"N3p-41-xdX.title" = "Setting";
+
+/* Class = "IBUINavigationItem"; title = "TopicSetting"; ObjectID = "RYx-Gp-BrM"; */
+"RYx-Gp-BrM.title" = "TopicSetting";
+
+/* Class = "IBUITextField"; placeholder = "Topic Name"; ObjectID = "RnN-ae-w0s"; */
+"RnN-ae-w0s.placeholder" = "Topic Name";
+
+/* Class = "IBUITableViewController"; title = "TopicSetting"; ObjectID = "RvG-XF-Ymd"; */
+"RvG-XF-Ymd.title" = "TopicSetting";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "SfG-8R-JQw"; */
+"SfG-8R-JQw.title" = "Cancel";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "UGW-EB-Nvf"; */
+"UGW-EB-Nvf.title" = "Login";
+
+/* Class = "IBUILabel"; text = "Talk.ai, about easy teamwork"; ObjectID = "UJL-Zp-5sz"; */
+"UJL-Zp-5sz.text" = "Talk.ai, about easy teamwork";
+
+/* Class = "IBUITextField"; placeholder = "Topic Purpose"; ObjectID = "Uwq-4A-WTf"; */
+"Uwq-4A-WTf.placeholder" = "Topic Purpose";
+
+/* Class = "IBUITabBarItem"; title = "Talk"; ObjectID = "XCQ-Gv-wgU"; */
+"XCQ-Gv-wgU.title" = "Talk";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "YJp-sP-Xec"; */
+"YJp-sP-Xec.text" = "Name";
+
+/* Class = "IBUIButton"; normalTitle = "New Topic"; ObjectID = "Yg8-ea-ZmD"; */
+"Yg8-ea-ZmD.normalTitle" = "New Topic";
+
+/* Class = "IBUILabel"; text = "For us, Talk.ai really enabled email-free teamwork."; ObjectID = "bLO-aF-vJK"; */
+"bLO-aF-vJK.text" = "For us, Talk.ai really enabled email-free teamwork.";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "c9d-ei-VB7"; */
+"c9d-ei-VB7.text" = "Detail";
+
+/* Class = "IBUITabBarItem"; title = "Me"; ObjectID = "cGJ-EE-sPe"; */
+"cGJ-EE-sPe.title" = "More";
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "cMR-eO-4K7"; */
+"cMR-eO-4K7.text" = "Email";
+
+/* Class = "IBUITabBarItem"; title = "Topics"; ObjectID = "cVb-gA-DhY"; */
+"cVb-gA-DhY.title" = "Topics";
+
+/* Class = "IBUILabel"; text = "Avatar"; ObjectID = "d3y-2E-T3a"; */
+"d3y-2E-T3a.text" = "Avatar";
+
+/* Class = "IBUINavigationItem"; title = "New Topic"; ObjectID = "e8u-P5-cj1"; */
+"e8u-P5-cj1.title" = "New Topic";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Settings"; ObjectID = "fRM-0f-RYW"; */
+"fRM-0f-RYW.headerTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "话题目标"; ObjectID = "ftS-5e-GlC"; */
+"ftS-5e-GlC.text" = "话题目标";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Topic Members"; ObjectID = "g2z-q8-GdT"; */
+"g2z-q8-GdT.headerTitle" = "Topic Members";
+
+/* Class = "IBUILabel"; text = "话题名称"; ObjectID = "hdy-05-J1R"; */
+"hdy-05-J1R.text" = "话题名称";
+
+/* Class = "IBUILabel"; text = "Notification"; ObjectID = "3ov-Jy-OKx"; */
+"3ov-Jy-OKx.text" = "Notification Setting";
+s
+/* Class = "IBUILabel"; text = "简聊"; ObjectID = "ikM-9Y-o5N"; */
+"ikM-9Y-o5N.text" = "简聊";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ioF-tw-xRp"; */
+"ioF-tw-xRp.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Teams"; ObjectID = "jiO-4O-qdb"; */
+"jiO-4O-qdb.title" = "Teams";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "joY-vB-IBp"; */
+"joY-vB-IBp.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "len-5w-w4P"; */
+"len-5w-w4P.text" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "Create New Account"; ObjectID = "nll-y3-HlX"; */
+"nll-y3-HlX.normalTitle" = "Create New Account";
+
+/* Class = "IBUITextField"; placeholder = "Team Name"; ObjectID = "obz-0p-GMv"; */
+"obz-0p-GMv.placeholder" = "Team Name";
+
+/* Class = "IBUINavigationItem"; title = "Members"; ObjectID = "rdT-u7-Xd1"; */
+"rdT-u7-Xd1.title" = "Members";
+
+/* Class = "IBUINavigationItem"; title = "New Team"; ObjectID = "s5I-xm-O6Y"; */
+"s5I-xm-O6Y.title" = "New Team";
+
+/* Class = "IBUINavigationItem"; title = "Personal Info"; ObjectID = "sXu-9c-cvV"; */
+"sXu-9c-cvV.title" = "Personal Info";
+
+/* Class = "IBUILabel"; text = "Current Team"; ObjectID = "XXF-sB-u25"; */
+"XXF-sB-u25.text" = "Current Team";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "uh5-eg-sMO"; */
+"uh5-eg-sMO.title" = "Talk";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "vMx-lr-8uO"; */
+"vMx-lr-8uO.text" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "Login with Teambition Account"; ObjectID = "xe0-uG-7tF"; */
+"xe0-uG-7tF.normalTitle" = "Login with Teambition Account";
+
+/* Class = "IBUILabel"; text = "Logout"; ObjectID = "xxZ-Ug-XcZ"; */
+"xxZ-Ug-XcZ.text" = "Logout";
+
+/* Class = "IBUIButton"; normalTitle = "New Member"; ObjectID = "yLe-56-wIn"; */
+"yLe-56-wIn.normalTitle" = "New Member";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "yiq-pv-cB3"; */
+"yiq-pv-cB3.placeholder" = "Name";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "yjm-r4-i81"; */
+"yjm-r4-i81.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "zBi-0k-mJb"; */
+"zBi-0k-mJb.text" = "Name";
+
+"eCR-HL-siU.text" = "Topic Color";
+
+"4N1-TW-wHc.text" = "Private Topic";
+
+"SmC-bH-XD9.text" = "Color";
+
+"oJ5-SI-9HS.text" = "Please enter your feedback";

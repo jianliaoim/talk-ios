@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  Talk
+
+  Created by teambition-ios on 14/11/21.
+  Copyright (c) 2014年 Teambition. All rights reserved.
+*/
+"CFBundleDisplayName" = "Talk";
+"Share Idea" = "Share Idea";
+"Share Image" = "Share Image";
+"Share Link" = "Share Link";
+"Search Jianliao" = "Search Everything";

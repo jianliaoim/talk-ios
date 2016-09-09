@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "图片"; ObjectID = "1cA-5v-4R7"; */
+"1cA-5v-4R7.text" = "Image";
+
+/* Class = "UILabel"; text = "话题"; ObjectID = "29K-cL-AdH"; */
+"29K-cL-AdH.text" = "Topic";
+
+/* Class = "UILabel"; text = "链接"; ObjectID = "YQ5-lr-85h"; */
+"YQ5-lr-85h.text" = "Link";
+
+/* Class = "UILabel"; text = "想法"; ObjectID = "ZEv-Vg-iO7"; */
+"ZEv-Vg-iO7.text" = "Idea";
+
+/* Class = "UILabel"; text = "私聊"; ObjectID = "bx0-Qt-bun"; */
+"bx0-Qt-bun.text" = "Chat";

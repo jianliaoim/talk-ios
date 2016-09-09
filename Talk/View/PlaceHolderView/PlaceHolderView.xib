@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PlaceHolderView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前没有内容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjS-kR-YgH">
+                    <rect key="frame" x="252" y="123" width="96" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxj-Ue-Gwy">
+                    <rect key="frame" x="163" y="158" width="275" height="34"/>
+                    <string key="text">讨论过程中传输的文件、富文本消息、 链接,
+会自动出现在这里。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-no-items" translatesAutoresizingMaskIntoConstraints="NO" id="9HZ-5s-2Ag">
+                    <rect key="frame" x="276" y="60" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="4v6-VS-O9g"/>
+                        <constraint firstAttribute="width" constant="48" id="NWQ-9W-Ysm"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9HZ-5s-2Ag" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="4xb-db-aV9"/>
+                <constraint firstAttribute="centerX" secondItem="9HZ-5s-2Ag" secondAttribute="centerX" id="7UF-XC-4oU"/>
+                <constraint firstItem="kjS-kR-YgH" firstAttribute="top" secondItem="9HZ-5s-2Ag" secondAttribute="bottom" constant="15" id="T7p-aJ-Cfd"/>
+                <constraint firstAttribute="centerX" secondItem="yxj-Ue-Gwy" secondAttribute="centerX" id="Tv0-a7-qtN"/>
+                <constraint firstItem="yxj-Ue-Gwy" firstAttribute="top" secondItem="kjS-kR-YgH" secondAttribute="bottom" constant="15" id="Ur5-Sg-DNS"/>
+                <constraint firstAttribute="centerX" secondItem="kjS-kR-YgH" secondAttribute="centerX" id="e6s-F7-Zle"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noContentImage" destination="9HZ-5s-2Ag" id="Gun-OS-Hso"/>
+                <outlet property="noContentLabel" destination="kjS-kR-YgH" id="HQb-Db-D5M"/>
+                <outlet property="reminderLabel" destination="yxj-Ue-Gwy" id="ETW-QZ-UJU"/>
+            </connections>
+            <point key="canvasLocation" x="580" y="356"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-no-items" width="48" height="48"/>
+    </resources>
+</document>

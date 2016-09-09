@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FailedMessage" representedClassName="MOFailedMessage" syncable="YES">
+        <attribute name="createAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendImage" optional="YES" attributeType="Transformable" valueTransformerName="APLImageToDataTransformer" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="sendImageCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendImageHeight" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sendImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendImageWidth" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="File" representedClassName="MOFile" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloadURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fileType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageHeight" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageWidth" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="messageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="file" inverseEntity="Message" syncable="YES"/>
+    </entity>
+    <entity name="Member" representedClassName="MOMember" syncable="YES">
+        <attribute name="avatarURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="members" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="MOMessage" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="displayMode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isEditable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="roomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="creator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="messages" inverseEntity="User" syncable="YES"/>
+        <relationship name="file" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="message" inverseEntity="File" syncable="YES"/>
+        <relationship name="quote" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quote" inverseName="message" inverseEntity="Quote" syncable="YES"/>
+    </entity>
+    <entity name="Quote" representedClassName="MOQuote" syncable="YES">
+        <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redirectURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userAvatarURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="message" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Message" inverseName="quote" inverseEntity="Message" syncable="YES"/>
+        <relationship name="recentMessage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecentMessage" inverseName="quote" inverseEntity="RecentMessage" syncable="YES"/>
+    </entity>
+    <entity name="RecentMessage" representedClassName="MORecentMessage" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isManual" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="roomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="creator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="recentMessages" inverseEntity="User" syncable="YES"/>
+        <relationship name="quote" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quote" inverseName="recentMessage" inverseEntity="Quote" syncable="YES"/>
+        <relationship name="teams" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="recentMessages" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Room" representedClassName="MORoom" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isGeneral" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPrivate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isQuit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="purpose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="rooms" inverseEntity="User" syncable="YES"/>
+        <relationship name="teams" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="rooms" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="MOTeam" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nonJoinable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Member" inverseName="team" inverseEntity="Member" syncable="YES"/>
+        <relationship name="recentMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecentMessage" inverseName="teams" inverseEntity="RecentMessage" syncable="YES"/>
+        <relationship name="rooms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Room" inverseName="teams" inverseEntity="Room" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="teams" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="MOUser" syncable="YES">
+        <attribute name="avatarURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isQuit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isRobot" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Message" inverseName="creator" inverseEntity="Message" syncable="YES"/>
+        <relationship name="recentMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecentMessage" inverseName="creator" inverseEntity="RecentMessage" syncable="YES"/>
+        <relationship name="rooms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Room" inverseName="members" inverseEntity="Room" syncable="YES"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Team" inverseName="users" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FailedMessage" positionX="-405" positionY="144" width="128" height="240"/>
+        <element name="File" positionX="-378" positionY="171" width="128" height="298"/>
+        <element name="Member" positionX="-396" positionY="153" width="128" height="163"/>
+        <element name="Message" positionX="-612" positionY="300" width="128" height="238"/>
+        <element name="Quote" positionX="-405" positionY="144" width="128" height="238"/>
+        <element name="RecentMessage" positionX="-387" positionY="162" width="128" height="223"/>
+        <element name="Room" positionX="-236" positionY="270" width="128" height="270"/>
+        <element name="Team" positionX="-407" positionY="-9" width="128" height="240"/>
+        <element name="User" positionX="-65" positionY="108" width="128" height="255"/>
+    </elements>
+</model>

@@ -1,0 +1,605 @@
+/* 
+  Localizable.strings
+  Talk
+
+  Created by Shire on 9/28/14.
+  Copyright (c) 2014 Teambition. All rights reserved.
+*/
+
+
+// General
+"Talk" = "Talk";
+"JoyfulWork" = "joyfulWork";
+"General" = "General";
+"Setting" = "Setting";
+"Sure" = "Done";
+"recent use" = "Recent use";
+"FeedBack" = "Feedback";
+"Notifications" = "Notifications";
+"Done" = "Done";
+"More" = "More";
+"More deatils" = "More details";
+"Failed to load" = "Failed to load";
+"Phone" = "Phone";
+"Mobilephone" = "Mobilephone";
+"talkai" = "talkai";
+"OK" = "OK" ;
+"Color" = "Color";
+"Title" = "Title";
+"Content" = "Content";
+"Me" = "Me";
+"me" = "me";
+"Creator" = "(Creator)";
+"Are you Sure" = "Are you sure ?";
+"Avatar" = "Avatar";
+"Name" = "Name";
+"Alias in team" = "Alias in team";
+"Can not be nil" = "Can not be nil";
+"Enter Conversation" = "Enter conversation";
+"Profile" = "Profile";
+"Edit profile" = "Edit profile";
+"Image" = "[Image]";
+"File" = "[File]";
+"Voice" = "[Audio]";
+"Hyper Text" = "[Hyper Text]";
+"Snippet" = "[Snippet]";
+"You're previewing" = "You're previewing";
+"Admin" = "Admin";
+"Search" = "Search";
+"All" = "All";
+"Add" = "Add";
+"Open in Teambition" = "Open in Teambition";
+"Text too long" = "Text too long!";
+"Not Support this attachment" = "Not support this attachment";
+"Open in safari" = "Open in safari";
+"Message" = "Message";
+"Copy link" = "Copy link";
+"Without this User" = "Without this user";
+"Without this Topic" = "Without this topic";
+"Managing actions" = "Managing actions";
+"Hide" = "Hide";
+"Draft" = "Draft";
+"No Info" = "No Info";
+"Language" = "Language";
+"Download" = "Download";
+"Download via cellular network?" = "Download via cellular network?";
+"Soon Online" = "Will be online";
+
+//Guide
+"Awesome design never stop" = "Awesome design never stop";
+"Share everything on Talk" = "Share everything on Talk";
+
+//Tips
+"Add story tip" = "Start here,search direct message and topic,or share idea/file/link with your partners.";
+"Show Story tip" = "Click here to read detail.";
+"Group tip" = "Admin can edit groups and you can invite group members to your chat.";
+
+//Network
+"Connected" = "Connected";
+"Connecting" = "Connecting";
+"No Internet connection" = "No Internet connection";
+
+//story
+"Share" = "Share";
+"Share Idea" = "Share Idea";
+"Share Link" = "Share Link";
+"Share Image" = "Share Image";
+"Edit Idea" = "Edit Idea";
+"Edit Link" = "Edit Link";
+"Edit Image" = "Edit Image";
+"Edit File" = "Edit File";
+"Leave Story" = "Leave Story";
+"Post At" = "Post At";
+"Saving" = "Saving";
+"Description" = "Description";
+"Invalid Link" = "Invalid Link";
+"Create Story" = "Create Story";
+"Remove Story" = "Remove Story";
+"Sure remove" = "Confirm to remove story";
+"I have an idea to share" = "I have an idea to share";
+"Detailed description" = "Detailed description";
+"Enter or paste a link" = "Enter or paste a link";
+"No this story" = "Cannot find this story";
+
+
+//error reminder
+"Fetch data failed" = "Fetch data failed,pull down to try again!";
+"Can not send Email" = "The current device can not send Email";
+"Can not send Message" = "The current device can not send Message";
+
+//JsSDK error message
+"Wrong parameters" = "Wrong parameters";
+"Failed to start" = "Failed to start";
+"Opration Cancel" = "Opration Cancel";
+"Wrong enter" = "Wrong enter";
+"Locate failed" = "Locate failed";
+"Scan failed" = "Scan failed";
+"uploaded failed" = "uploaded failed";
+
+//Login
+"LOGOUT_ACCOUNT_DESCTRUCTIVE_TITLE" = "Sign out";
+"LOGOUT_ACCOUNT_TITLE" = "Are you sure to logout account?";
+"Please login first" = "Please login first";
+"LOGIN" = "Login";
+"LOGIN_FAIL" = "Login failed";
+"Already have Teambition account? Login now" = "Already have Teambition account? Login now";
+"Login with Teambition account" = "Login with Teambition account";
+"Sign in" = "Sign in";
+"Sign up" = "Sign up";
+"Wechat" = "Wechat";
+"LOGIN_WITH_WECHAT" = "Continue with Wechat";
+"Login placeholder" = "Email or Mobilephone";
+"Password placeholder" = "Password";
+"Wrong login" = "Wrong account or password";
+"Forgot your password?" = "Forgot your password?";
+"Reset password" = "Reset password";
+"Reset password success" = "Reset password success";
+"Please check your mail" = "Please check your email";
+"Confirm" = "Confirm";
+"Please input your phone number with country code like XXX-XXXXXXX" = "Please enter your phone number with country code, following the format xx-xxxxx.";
+"Choose country" = "Choose country";
+"Popular Countries" = "Popular countries and regions";
+"Now you can create you own team, or scan QRcode to join other teams." = "Now you can create you own team, or scan QRcode to join other teams.";
+
+"Can not login" = "Can not login?";
+"SignIning" = "Sign In ...";
+"SignUping" = "Sign Up ...";
+"Send Verification" = "Send Verification";
+"Enter Verification" = "Input Verification";
+"Set New Password" = "Set New Password";
+"New password" = "New password";
+"Confirm password" = "New password again";
+"Please input right Style" = "Please input right email or mobile Style!";
+"Input email" = "Email";
+"Input mobile" = "Mobile";
+"Input password" = "Password,not shorter than 6";
+"Sign in with email" = "Sign in with email";
+"Sign in with mobile" = "Sign in with mobile";
+"Sign up with email" = "Sign up with email";
+"Sign up with mobile" = "Sign up with mobile";
+"Reset with email" = "Reset password with email";
+"Reset with mobile" = "Reset password with mobile";
+"Not same passWord" = "Not same passWord";
+"Uploading avatar" = "Uploading avatar...";
+"Please verify your email" = "Please verify your email，Talk will send a email to you.";
+"Complete infomation" = "Complete your infomation";
+
+//Invite
+"Local Contacts" = "Local Contacts";
+"Search Contact" = "Search Local Contact";
+"Invite to Talk" = "Invite to Talk";
+"Phone/Email" = "Input Phone/Email";
+"Add Phone Contact" = "Add Phone Contact";
+"We need to collect your contacts. We won't leak your contacts without your permission." = "We need to collect your contacts. We won't leak your contacts without your permission.";
+"Invalid phone number or email" = "Invalid phone number or email";
+"Contact Recommend Done" = "Done";
+"You friend hasn’t sign up yet. Send an invitation to your team through SMS." = "You friend hasn’t sign up yet. Send an invitation to your team through SMS.";
+"Invitation to %@ team. Visit %@ to download Talk app, and sign up or connect to your mobile number to join the team." = "Invitation to %@ team. Visit %@ to download Talk app, and sign up or connect to your mobile number to join the team.";
+"Valid phonenumber" = "Valid phonenumber";
+"Delete Invitation Failed" = "Delete Invitation Failed";
+"Wechat Session" = "Wechat";
+"Copy inviteCode alert" = "Invitecode copied!";
+"Copy to Wechat" = "Copy to Wechat";
+"Wechat TimeLine" = "Wechat TimeLine";
+"Install Wechat" = "Please install WeChat first.";
+
+//Signup
+"Mobile number" = "Mobile number" ;
+"Email address" = "Email";
+"Get vertication code" = "Get vertication code";
+"Vertication code" = "Vertication code";
+"Send again" = "Send again";
+"Next" = "Next";
+"Sign up with email" = "Sign up with email";
+"Sign up with mobilephone" = "Sign up with mobilephone";
+"Create password (6 at least)" = "Create password (6 at least)";
+"Terms of Service and Privacy Policy" = "Terms of Service and Privacy Policy";
+"Linked accounts" = "Linked accounts";
+"Link" = "Link";
+"Link email" = "Link email";
+"Link mobilephone" = "Link mobilephone";
+"Link mobilephone success" = "Link mobilephone success";
+"Link wechat success" = "Link wechat success";
+"For editing the connections, please visit the web page." = "For editing the connections, please visit the web page.";
+"Notice" = "Notice";
+"You have to set an email address or mobile number first to get invited to other teams. You can do it later at Personal Settings." = "You have to set an email address or mobile number first to get invited to other teams. You can do it later at Personal Settings.";
+"Later" = "Later";
+"Set Now" = "Set Now";
+"Skip" = "Skip";
+
+//Photo
+"Choose From Library" = "Choose From Library";
+"Take a Photo" = "Take photo";
+"Not more than 10 photos" = "Not more than 10 photos！";
+"send %lu Photo"= "send %lu Photos";
+
+//Common Actions
+"Open" = "Open";
+"Cancel" = "Cancel";
+"Submit" = "Submit";
+"Join" = "Join";
+"Save" = "Save";
+"Close" = "Close";
+"Invite member" = "Invite Member";
+"Back" = "Back";
+"Say Something" = "Message";
+"Edit" = "Edit";
+"Edit..." = "Update...";
+"Edit Message" = "Edit Message";
+"Edit fail" = "Edit fail";
+"Undo" = "Undo";
+"Redo" = "Redo";
+"Send" = "Send";
+"Copy" = "Copy";
+"Forward" = "Forward";
+"Delete" = "Delete";
+"uploaded file" = "uploaded file";
+"Loading..." = "Loading...";
+"Loading from iCloud" = "Loading from iCloud...";
+"Fetching Team Data..." = "Fetching Team Data...";
+"Favorite" = "Favorite";
+"Select" = "Select";
+"Call" = "Call";
+"Uploading" = "Uploading...";
+"Back and Edit" = "Back and Edit";
+"Continue" = "Continue";
+
+//Reminds
+"Has Send" = "Has Send";
+"Succeed" = "Succeed";
+"Exiting" = "Exiting...";
+"Archiving" = "Archiving...";
+"Recovering" = "Recovering";
+"Deleting" = "Deleting...";
+"Sure exit" = "After leaving,you won't accept messages of this topic again";
+"Archive remind" = "After archiving,you can resume it at the bottom of Topics";
+"Remove topic remind" = "Are you sure to remove this topic? This can't be undone.";
+"Sure to Delete" = "Are you sure to delete this message? This can't be undone.";
+"Sending..." = "Sending...";
+"Failed,Tap to resend" = "Failed,Tap to resend";
+"Report" = "Report";
+"Succeed Report" = "Report Succeed,We will deal with it in 24 hours!";
+"User" = "User";
+"Objectionable content" = "Reported message";
+"Undo Typing" = "Undo Typing";
+"have opened" = "have opened";
+"have closed" = "have closed";
+"send fault" = "send fault";
+"no more" = "This is the beginning of Talk";
+"someone" = "someone";
+"Email" = "Email";
+"Contacts" = "Contacts";
+"Talk(%d)" = "Talk(%d)";
+"EMAIL_ADD_PLACEHOLDER" = "Send email to invite";
+"Open explain" = "All team member can join";
+"Close explain" = "Only visible for topic member";
+"please enter full infomation" = "please enter full infomation";
+"please enter" = "Please enter the title";
+"please wait..." = "please wait...";
+"NetWork connect fault,Please check!" = "NetWork connect fault,Please check!";
+"NetWork connected" = "NetWork connected";
+"Remind" = "Remind";
+"An error occurred" ="An error occurred";
+"Talk needs access to the camera roll" ="Talk needs access to the camera roll,please enter Setting to set.";
+"Added" = "Added";
+"Failed,Please try later" = "Failed,Please try later";
+"Dealing" = "Dealing...";
+"Removed from topic" = "You have been removed from %@";
+"Copied" = "Copied";
+"Privacy Warning" = "Privacy Warning";
+"Permission was not granted for Contacts" = "Permission was not granted for Contacts.";
+"Please Select" = "Image Valid,Select";
+"Wrong valid image" = "Wrong Image,please try again.";
+"No Team" = "No selected team,Please signin again and choose one";
+"QQ Email Remind" = "We recommend not using QQ E-Mail to prevent from delaying";
+"received" = "read";
+"not received yet" = "unread";
+
+//Topic
+"Joined" = "Joined";
+"Joinable" = "Joinable";
+"Archived" = "Archived";
+"Archived Topics" = "Archived Topics";
+"Recover" = "Recover";
+"No target" = "No target";
+"Topic Name" = "Topic Name";
+"Topic Target" = "Topic Target";
+"Topic Color" = "Topic Color";
+"Private Topic" = "Private Topic";
+"Topic Members" = "Topic Members";
+"Topic Settings" = "Topic Settings";
+"Pin to top" = "Pin to top";
+"Pin" = "Pin";
+"Unpin" = "Unpin";
+"Mute" = "Mute";
+"Cancel Mute" = "Cancel Mute";
+"Base Info" = "Base Info";
+"Leave Topic" = "Leave topic";
+"Archive Topic" = "Archive topic";
+"Remove Topic" = "Remove topic";
+"New Topic" = "New Topic";
+"View All Archived Topics" = "View All Archived Topics";
+"topic name exists" = "topic name exists";
+"Invalid topic name" = "Invalid topic name";
+"Topic Archived" = "This topic has been archived";
+"Back recover" = "Back to recover";
+
+//Group
+"My Groups" = "My Groups";
+"Member Groups" = "Member Groups";
+"Add new group" = "Add New Group";
+"Choose Group" = "Choose Group";
+"Group Name" = "Group Name";
+"No topic join" = "You've been in no group.\n Create a new one as needed.";
+"group name exists" = "Group name exists.";
+"Invalid group name" = "Invalid group name";
+"Groups" = "Groups";
+
+//Member Group
+"Add Member Group" = "Add Member Group";
+"Member Group Name" = "Member Group Name";
+"Manage Group" = "Manage Group";
+"Add members from team" = "Add members from team";
+"Remove group" = "Remove group";
+"Sure to remove group ?" = "Sure to remove group ?";
+
+//Member
+"Manage" = "Manage";
+"・Owner" = "・Owner";
+"・Admin" = "・Admin";
+"・Left member" = "・Left member";
+"Members" = "Member";
+"Member" = "Add Member";
+"Allmembers" = "All";
+"Member profile" = "Member profile";
+"Enter email for invitation" = "Enter email for invitation";
+"Please enter right email" = "Please enter right email";
+"Choose At" = "Choose At";
+"Set as administrator" = "Set as administrator";
+"Cancel admin" = "Cancel admin";
+"Remove from team" = "Remove from team";
+"Invite members from team" = "Invite team member";
+"Check all left members" = "Check all left members";
+"Left members" = "Left members";
+"Invited member" = "Invited";
+
+//Teams
+"Team" = "Team";
+"Select team" = "Select team";
+"Exit Team" = "Quit Team";
+"Sure exit Team" = "Once you quit the team, you will not be able to view any of the team chats. After exiting the team, if you want to re-join, please contact the team administrator.";
+"Create a new team" = "Create a new team";
+"Scan to join a team" = "Scan to join a team";
+"Join team" = "Join team";
+"QR Code" = "Team QR Code";
+"Scan QR Code" = "Scan QR Code";
+"Wrong QR Code" = "Wrong QR Code";
+"Refresh" = "Refresh";
+"Photos" = "Photos";
+"No QRcode detected" = "No QRcode detected";
+"Others can scan the code to add team" = "Others can scan the code to add team";
+"New team" = "New team";
+"Team name" = "Team name";
+"Team Invite" = "Send team invite";
+"Team invite text" = "Copy this text，Open Talk. Then you will Join【%@】Team %@ 🎈%@🎈";
+"Sync" = "Sync";
+"Sync again" = "Sync again" ;
+"Enter" = "Enter";
+"Sync success" = "Sync success";
+"Team Activity" = "Team Activity";
+"Sync from Teambition" = "Create a team that you own";
+"Sync Teambition team" = "Sync all Teambition pro teams to Talk";
+
+//share to
+"Forward To" = "Forward To";
+"Share To" = "Share To";
+"Recent" = "Recent";
+"Topics" = "Topics";
+"Confirm forward to" = "Confirm forward to:\n %@";
+"Choose" = "Choose";
+"Choose Team" = "Choose Team";
+
+//default info
+"info-created-task"  = "Created task";
+"info-created-file" = "Uploaded file";
+"info-created-snippet" = "Created snippet";
+
+"info-update-purpose" = "Updated purpose: ";
+"info-update-topic" = "Updated topic: ";
+
+"info-create-room" = "Create topic";
+"info-join-room" = "Join topic";
+"info-leave-room" = "Left topic";
+
+"info-join-team" = "Joined team";
+"info-leave-team" = "Left team";
+"info-rss-new-item" = "New RSS item:";
+"info-new-mail-message" = "Share from email";
+
+"info-weibo-new-mention" = "Mention from Weibo:";
+"info-weibo-new-comment" = "Comment from Weibo:";
+"info-weibo-new-repost" = "Repost from Weibo:";
+"info-github-new-event" = "Event from GitHub";
+
+"info-create-integration"  = "Created integration";
+"info-update-integration" = "Updated integration";
+"info-remove-integration" = "Removed integration";
+
+"info-mention" = "mention";
+"info-comment" = "comment";
+"info-repost" = "repost";
+
+"info-commit_comment" = "Comment on commit";
+"info-create" = "Create branch or tag";
+"info-delete" = "Delete branch or tag";
+"info-fork" = "Fork";
+"info-issue_comment" = "Comment on issue";
+"info-issues" =  "Issue changes";
+"info-pull_request_review_comment" = "Commit in PR";
+"info-pull_request" = "PR";
+"info-push" = "Push";
+
+"info-merge_request" = "Merge";
+"info-firim-message" = "Message from FIR.im:";
+"info-gitlab-new-event" = "Event from GitLab:";
+
+"info-create-story" = "post story";
+"info-update-story" = "update story";
+"info-pin-notification" = "pin notification";
+"info-unpin-notification" = "unpin notification";
+"info-invite-members" = "invite";
+"info-remove-members" = "remove";
+"info-leave-story" = "leave story";
+"info-remove-message" = "remove message";
+"info-upload-files" = "upload file";
+"info-new-speech" = "send voice";
+"info-invite-you" = "invite you";
+
+"info-invite-team-member" = "invite team member";
+"info-create-topic-story" = "create topic story";
+"info-create-link-story" = "create link story";
+"info-create-file-story" = "create file story";
+
+//date
+"Just now" = "Just now";
+"secs ago" = " secs ago";
+"A min ago" = "A min ago";
+"mins ago" = " mins ago";
+"An hour ago" = "An hour ago";
+"hours ago" = " hours ago";
+"Yesterday" = "Yesterday";
+"Short Date Formatter" = "M/d HH:mm";
+"Year Formatter" = "M/d/yyyy HH:mm";
+"Date Formatter" = "MMMd,yyyy";
+
+//team activity
+"No activity" = "No activity";
+"Team activity coming soon" = "Team activity coming soon";
+"Team activity introduce" = "You can see all activities of team, and let all team events at a glance.";
+
+//more
+"Favorites" = "Favorites";
+"Items" = "Message Shelf";
+"Tags" = "Tags";
+"@Messages" = "@me";
+"Integrations" = "Integrations";
+"Team Settings" = "Team Settings";
+"Other Teams" = "Other Teams";
+"App Settings" = "Personal Settings";
+"Terms of service" = "Terms of service";
+"Files" = "Files";
+"Rate Talk in App Store" = "Rate Talk in App Store";
+"Links" = "Links";
+"Posts" = "Posts";
+"Code" = "Code";
+"Sheets" = "Sheets";
+"Loading more items..." = "Loading more items...";
+"Load more" = "Load more";
+"No more data" = "No more data";
+"Seleted Favorites" = "Seleted %@ Favarite(s)";
+"No favorites" = "No favorites";
+"Add favorites" = "You can long press message to add";
+"Filter" = "Filter";
+"Topics or conversations" = "Topics or conversations";
+"Private Conversation" = "Conversations";
+"Private Chat" = "Private Chat";
+"Add tag" = "Add tag";
+"Edit tag" = "Edit tag";
+"No tags" = "No tags";
+"Sure to delete tag?" = "Sure to delete tag?";
+"Long press on message to add tag" = "Long press on message to add tag";
+"Hide phone" = "Hide phone in team";
+"You have no permission to delete this tag" = "You have no permission to delete this tag";
+"Message Shelf will save all your file, rich text and links." = "Message Shelf will save all your file, rich text and links.";
+"Manage message easily" = "";
+"Message Shelf will automatically save all your file, rich text and links here." = "Message Shelf will automatically save all your file, rich text and links here.";
+"Nofication all" = "Notify all";
+"Nofication about self" = "Only nofication mentions";
+"Nofication closed" = "Close notification";
+"Notification on work time" = "Notification during 8:00 to 22:00";
+"Mute when web online" = "Mute when web online";
+"Web online" = "web online";
+"Mute phone notification" = "Mute phone notification";
+"Unmute phone notification" = "Unmute phone notification";
+
+//Search
+"Search everything" = "Search everything";
+"Your search history" = "Your search history will appear here.";
+"History" = "History";
+"Clear history" = "Clear history";
+"View more contacts" = "View more contacts";
+"View more topics" = "View more topics";
+"Conversations" = "Conversations";
+"View more conversations" = "View more conversations";
+"Loading results" = "Loading results...";
+"No results" = "No results";
+"Search messages about" = "Search messages about %@";
+"Unread Messages" = "%d unread messages";
+"Search no in favorites" = "‘%@’ is not in favorites";
+"Search no in tag" = "“%@” is not in this tag";
+"Search no in @" = "“%@” is not in @";
+
+"All members" = "All";
+"All positions" = "All positions";
+"Private chat" = "Conversation";
+"No filter" = "No filter";
+"All tags" = "All tags";
+"All types" = "All types";
+
+"Last day" = "Last day";
+"Last week" = "Last week";
+"Last month" = "Last month";
+"Last three month" = "Last three month";
+
+"No message found" = "No message found";
+"Research message" = "Change keywords and try again";
+
+//placeholder
+"Member talk header" = "This is the very beginning of your direct message history. Direct messages are private between the two of you.";
+"Topic talk header" = "This topic was created by %@ on %@. Its purpose is: %@.";
+"New Begin" = "Join a topic and start to Talk";
+"Go to General" = "#General";
+
+"Welcome to Talk" = "Welcome to Talk!";
+"Welcome to Talk after signup" = "Enjoy Talk";
+"Add new topic" = "Create topic";
+
+"Topic placeholder" = "Begining of the topic";
+"private placeholder" = "Start to Talk";
+"Talkai placeholder" = "Hi! It's Talkai!";
+"Create by comment placeholder" = "This topic is created by %@ on %@\nTap Setting button on the top right corner\nto configure this topic";
+"General comment placeholder" = "This is a general topic, \nyou can broadcast notices from here";
+"Create story by comment placeholder" = "This story is posted by %@ on %@\nTap Setting button on the top right corner\nto get information about the members";
+"Private comment placeholder" = "This conversation is private\nand only visible between you two.";
+"Talkai comment placeholder" = "I'm the assistant of Talk.\nI'll bring you the latest feature as soon as possible.";
+
+"NO content" = "No filter result";
+"NO data reminder" = "Files、rich text and links of the conversation\n will be automatically saved here.";
+
+//voice
+"Tap to speak" = "Hold to speak";
+"Release to end" = "Release to end";
+"Slide up to cancel" = "Slide up to cancel";
+"Release to cancel" = "Release to cancel";
+"Message too short" = "Message too short";
+"No Record permission" = "No Record permission, please open in Setting";
+
+//Color
+//Topic Color
+"Purple" = "Purple";
+"Indigo" = "Indigo";
+"Blue" = "Blue";
+"Cyan" = "Cyan";
+"Grass" = "Grass";
+"Yellow" = "Yellow";
+//Team Color
+"Grape" = "Grape";
+"Blueberry" = "Blueberry";
+"Ocean" = "Ocean";
+"Mint" = "Mint";
+"Tea" = "Tea";
+"Ink" = "Ink";
+
+//UIPreviewActionItem
+"Thanks!" = "Thanks!";
+"Talk later?" = "Talk later?";

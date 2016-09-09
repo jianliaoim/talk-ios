@@ -1,0 +1,660 @@
+/* 
+  Localizable.strings
+  Talk
+
+  Created by Shire on 9/28/14.
+  Copyright (c) 2014 Teambition. All rights reserved.
+*/
+
+
+// General
+"Talk" = "简聊";
+"JoyfulWork" = "简聊一下";
+"General" = "公告板";
+"Phone" = "电话";
+"Mobilephone" = "手机";
+"talkai" = "小艾";
+"someone" = "匿名用户";
+"Email" = "邮件";
+"Contacts" = "通讯录";
+"Talk(%d)" = "简聊(%d)";
+"Color" = "颜色";
+"Title" = "标题";
+"Content" = "内容";
+"User" = "用户";
+"Objectionable content" = "举报的消息";
+"Say Something" = "消息";
+"More" = "更多";
+"More deatils" = "查看详情";
+"Me" = "我";
+"me" = "我";
+"Creator" = "(创建者)";
+"Are you Sure" = "你确定吗?";
+"Avatar" = "头像";
+"Name" = "姓名";
+"Alias in team" = "团队别名";
+"Can not be nil" = "不能为空";
+"Enter Conversation" = "进入会话";
+"Profile" = "个人概况";
+"Edit profile" = "编辑概况";
+"Image" = "[图片]";
+"File" = "[文件]";
+"Voice" = "[语音]";
+"Hyper Text" = "[富文本]";
+"Snippet" = "[代码片段]";
+"You're previewing" = "你正在预览";
+"Admin" = "管理员";
+"Search" = "搜索";
+"All" = "全部";
+"Open in Teambition" = "在Teambition中打开";
+"Text too long" = "文本过长，请不要超过1000字符";
+"Not Support this attachment" = "不支持此种类型附件";
+"Open in safari" = "在Safari中打开";
+"Message" = "消息";
+"Copy link" = "复制链接";
+"Without this User" = "无此成员";
+"Without this Topic" = "无此话题";
+"Managing actions" = "管理";
+"Hide" = "隐藏";
+"Draft" = "草稿";
+"No Info" = "未填写";
+"Language" = "多语言";
+"Download" = "下载";
+"Download via cellular network?" = "通过蜂窝数据下载文件？";
+"Soon Online" = "即将上线，敬请期待";
+
+//Guide
+"Awesome design never stop" = "出彩设计，革新从未停止";
+"Share everything on Talk" = "奇思妙想，简聊由此开始";
+
+//Tips
+"Add story tip" = "可在此处发起简聊，寻找私聊或话题群聊，或者分享你的想法，文件与链接和你的工作伙伴";
+"Show Story tip" = "点击此处可查看详细的想法/图片预览/链接内容";
+"Group tip" = "团队管理员可编辑成员分组，你可通过成员分组快速的添加参与讨论的成员";
+
+//Network
+"Connected" = "网络已连接";
+"Connecting" = "正在连接网络";
+"No Internet connection" = "无法连接网络";
+
+//story
+"Share" = "分享";
+"Share Idea" = "分享想法";
+"Share Link" = "分享链接";
+"Share Image" = "分享图片";
+"Edit Idea" = "编辑想法";
+"Edit Link" = "编辑链接";
+"Edit Image" = "编辑图片";
+"Edit File" = "编辑文件";
+"Leave Story" = "离开讨论";
+"Post At" = "发布于";
+"Saving" = "正在保存";
+"Description" = "描述";
+"Invalid Link" = "无效的链接";
+"Create Story" = "创建讨论";
+"Remove Story" = "删除讨论";
+"Sure remove" = "确定要删除讨论？";
+"I have an idea to share" = "一句话概括你的想法";
+"Detailed description" = "详细描述一下";
+"Enter or paste a link" = "输入或粘贴一个网址";
+"No this story" = "未找到此分享";
+
+//Free call
+"Phone Call" = "语音通话";
+"Free Call" = "简聊免费通话";
+"Bind your phone, and enjoy free call!" = "绑定手机后，可以免费打电话啦！";
+"multiple phone call" = "多人通话";
+"multiple phone call among %d people" = "%d人电话会议";
+"You cannot call him now" = "该成员未绑定手机，不能与他免费通话";
+
+//error reminder
+"Fetch data failed" = "获取数据失败，请下拉重试";
+"Can not send Email" = "当前的设备不能发送邮件";
+"Can not send Message" = "当前的设备不能发送消息";
+"Call later" = "以后再说";
+"Call right now" = "立即使用";
+"Please wait for call from %@" = "请接听来自%@的回拨电话。";
+
+//JsSDK error message
+"Wrong parameters" = "参数错误";
+"Failed to start" = "启动界面失败";
+"Opration Cancel" = "操作取消";
+"Wrong enter" = "输入错误";
+"Locate failed" = "定位失败";
+"Scan failed" = "扫描失败";
+"uploaded failed" = "上传失败";
+
+//Common Actions
+"Open" = "打开";
+"Cancel" = "取消";
+"Submit" = "提交";
+"Save" = "保存";
+"Sure" = "确定";
+"Succeed" = "成功";
+"Setting" = "设置";
+"Delete" = "删除";
+"Invite member" = "邀请成员";
+"Back" = "返回";
+"Done" = "成功";
+"Edit" = "编辑";
+"Edit..." = "正在修改...";
+"Edit Message" = "编辑信息";
+"Edit fail" = "编辑失败";
+"Undo" = "撤销";
+"Redo" = "反撤销";
+"Undo Typing" = "撤销正在键入";
+"recent use" = "最近使用的类别";
+"FeedBack" = "意见反馈";
+"Notifications" = "通知";
+"Copy" = "复制";
+"Forward" = "转发";
+"Report" = "举报";
+"Back" = " 返回";
+"Exiting" = "正在退出...";
+"Archiving" = "正在归档...";
+"Recovering" = "正在恢复...";
+"Deleting" = "正在删除...";
+"Loading..." = "载入中...";
+"Loading from iCloud" = "正在从iCloud下载，请稍等...";
+"Fetching Team Data..." = "正在载入团队信息...";
+"uploaded file" = "上传了文件";
+"Sending..." = "发送中...";
+"Favorite" = "收藏";
+"Cancel Favorite" = "取消收藏";
+"Add" = "添加";
+"Select" = "选择";
+"Call" = "呼叫";
+"Uploading" = "正在上传...";
+"Back and Edit" = "返回修改";
+"Continue" = "继续";
+
+//Reminder Messages
+"Open explain" = "所有团队成员可以加入";
+"Close explain" = "仅话题成员可见";
+"Failed to load" = "加载失败";
+"Enter email for invitation" = "输入邮件来邀请";
+"Please enter right email" = "请输入正确的邮箱地址";
+"Choose At" = "选择提醒的人";
+"Allmembers" = "所有成员";
+"have opened" = "已开启";
+"have closed" = "已关闭";
+"Close" = "关闭";
+"no more" = "这里是简聊的开始";
+"send fault" = "发送失败";
+"EMAIL_ADD_PLACEHOLDER" = "输入邮件来邀请";
+"Sure exit" = "退出后，将不再接受此话题内消息";
+"Archive remind" = "归档话题在「话题列表」的最下方，你可以随时恢复。";
+"Remove topic remind" = "删除后，其他成员也将退出此话题，此操作不可恢复";
+"Sure to Delete" = "您确定删除这条信息吗?此操作不可恢复";
+"please wait..." = "请稍等";
+"NetWork connect fault,Please check!" = "网络连接失败，请检查网络！";
+"NetWork connected" = "网络已连接";
+"Remind" = "提示";
+"Not more than 10 photos" = "不支持图片数量大于10张";
+"OK" = "好的";
+"please enter full infomation" = "请完成所有信息的填写";
+"please enter" = "请输入";
+"Send" = "发送";
+"Has Send" = "已发送";
+"send %lu Photo" = "发送 %lu 张";
+"An error occurred" = "发生错误";
+"Talk needs access to the camera roll" = "请在设置中为「简聊」开启访问照片的权限。";
+"Failed,Tap to resend" = "失败，点击重新发送";
+"Succeed Report" = "举报成功，我们将在24小时内作出处理！";
+"Added" = "已收藏";
+"Favorite Canceled" = "收藏已取消";
+"Failed,Please try later" = "失败，请稍后再试";
+"Dealing" = "处理中...";
+"Removed from topic" = "您已被移出话题:%@";
+"Copied" = "已复制";
+"Privacy Warning" = "没有权限";
+"Permission was not granted for Contacts" = "请在设置中为「简聊」开启访问联系人的权限。";
+"Please Select" = "图形验证码，请选择";
+"Wrong valid image" = "图片选择有误，请重新选择";
+"No Team" = "你还没有选择团队，请重新登录并选择";
+"QQ Email Remind" = "为了邮件能够及时送达到您的邮箱，请尽量不要使用QQ邮箱";
+"received" = "已读";
+"not received yet" = "未读";
+
+//Login
+"Contact us" = "联系我们";
+"LOGOUT_ACCOUNT_DESCTRUCTIVE_TITLE" = "退出登录";
+"LOGOUT_ACCOUNT_TITLE" = "你确定要退出登录吗？";
+"Please login first" = "请先登录";
+"Begin Talk" = "开始简聊";
+"Conform the privacy" = "点击代表同意我们的";
+"Login with mobilephone" = "手机号登录";
+"Please verify your phone, Jianliao will send you a message." = "请验证你的手机号码，简聊将会向你发送一条验证短信。";
+"Please input your phone number again" = "请重新输入你的手机号";
+"Please input your email again" = "请重新输入你的邮箱";
+"LOGIN" = "登录";
+"LOGIN_FAIL" = "登录失败";
+"Already have Teambition account? Login now" = "已有Teambition账号？立即登录";
+"Login with Teambition" = "使用Teambition账号登录";
+"Sign in" = "登录";
+"Sign up" = "注册";
+"Wechat" = "微信";
+"LOGIN_WITH_WECHAT" = "微信登录";
+"Login placeholder" = "邮箱或手机";
+"Password placeholder" = "密码";
+"Wrong login" = "用户名或密码不正确";
+"Forgot your password?" = "忘记密码?";
+"Reset password" = "重置密码";
+"Reset password success" = "重置密码成功";
+"Please check your mail" = "请查收您的邮件";
+"Confirm" = "确认";
+"Please input your phone number with country code like XXX-XXXXXXX" = "输入国际手机号码时请不要遗漏国家号，格式为 xx-xxxxx。";
+"Choose country" = "选择国家";
+"Popular Countries" = "热门国家和地区";
+"Now you can create you own team, or scan QRcode to join other teams." = "注册成功！现在你可以创建自己的团队，还可以通过扫描二维码加入其他已有团队。";
+
+"Mobile number" = "手机号码";
+"Email address" = "邮箱";
+"Get vertication code" = "获取验证码";
+"Input verification code" = "输入验证码";
+"Wrong verification code" = "验证码错误";
+"Aready send code to you mobile" = "已发送验证码至手机";
+"Aready send code to your email" = "已发送验证码至邮箱";
+"Wrong phone number" = "手机格式错误，请重新输入。";
+"Wrong email" = "邮箱格式错误，请重新输入。";
+"Input verification code again" = "请重新输入验证码";
+"Vertication code" = "验证码";
+"Send again" = "重新发送";
+"Send again (%d)" = "重发(%d)";
+"Next" = "下一步";
+"Sign up with email" = "邮箱注册";
+"Sign up with mobilephone" = "手机号注册";
+"Create password (6 at least)" = "创建密码(至少6位)";
+"Terms of Service and Privacy Policy" = "服务条款和隐私权限";
+"Linked accounts" = "账号绑定";
+"Link" = "绑定";
+"Unlinked" = "未绑定";
+"Unlink" = "解绑";
+"Change" = "更改";
+"Unlink teambition" = "解除Teambition绑定";
+"After you unlink the Teambition, you cannot login by Teambition account" = "解绑后将不能使用该 Teambition 帐号登录，但不会对相应团队产生影响";
+"Link email" = "绑定邮箱";
+"Link success" = "绑定成功";
+"You can use this account to login Jianliao" = "你可以用此账号登陆简聊了";
+"No linked mobilephone" = "未绑定手机";
+"Link mobilephone" = "绑定手机号";
+"Link mobilephone success" = "绑定手机成功";
+"This account has already been linked" = "该账号已被创建或绑定";
+"%@ has already been created. If you continue, the old account will be canceled" = "账号 %@ 已被创建或绑定，如需继续绑定会将原有账号注销，确定继续？";
+"Link wechat success" = "绑定微信成功";
+"For editing the connections, please visit the web page." = "如果需要解除绑定，请前往网页端进行操作。";
+"Notice" = "提醒";
+"You have to set an email address or mobile number first to get invited to other teams. You can do it later at Personal Settings." = "绑定邮箱或手机后，您可以被更方便地邀请加入团队。";
+"Later" = "稍后";
+"Set Now" = "立即设置";
+"Skip" = "跳过";
+
+"Complete infomation" = "完善个人信息";
+"Please input your name" = "请输入姓名";
+"Finish" = "完成";
+
+"Can not login" = "无法登录?";
+"SignIning" = "登录中...";
+"SignUping" = "注册中...";
+"Send Verification" = "发送验证码";
+"Enter Verification" = "输入验证码";
+"Set New Password" = "设置新密码";
+"New password" = "输入新密码";
+"Confirm password" = "确认密码";
+"Please input right Style" = "请填写正确地邮箱或手机格式!";
+"Input email" = "输入邮件";
+"Input mobile" = "输入手机号";
+"Input password" = "输入密码，并不小于6位";
+"Sign in with email" = "用邮箱登录";
+"Sign in with mobile" = "用手机号登录";
+"Sign up with email" = "用邮箱注册";
+"Sign up with mobile" = "用手机号注册";
+"Reset with email" = "用邮件重置密码";
+"Reset with mobile" = "用手机号重置密码";
+"Not same passWord" = "密码不一致";
+"Uploading avatar" = "上传头像中...";
+"Please verify your email" = "请验证你的邮箱，简聊将会给你发送一封邮件";
+
+//Invite
+"Local Contacts" = "本地联系人";
+"Search Contact" = "搜索本地联系人";
+"Phone/Email" = "输入手机号或邮箱";
+"Invite to Talk" = "对方尚未注册简聊";
+"Invite success" = "邀请成功";
+"Add Phone Contact" = "添加手机联系人";
+"We need to collect your contacts. We won't leak your contacts without your permission." = "添加通讯录中的联系人，通讯录仅用于查找好友，不会泄露您的隐私";
+"Invalid phone number or email" = "无效的号码或邮箱";
+"Contact Recommend Done" = "完成";
+"You can invite TA to Jianliao" = "你可以通过短信邀请TA加入简聊";
+"You friend hasn’t sign up yet. Send an invitation to your team through SMS." = "你可以通过短信邀请对方注册简聊，并加入团队。";
+"Invitation to %@ team. Visit %@ to download Talk app, and sign up or connect to your mobile number to join the team." = "邀请你加入%@团队，点击%@，用手机号注册即可加入团队（若已注册请绑定手机号）";
+"Valid phonenumber" = "不合法的手机号";
+"No results" = "没有搜索到结果，试试看其它的吧。";
+"This member hasn't sign in Jianliao yet" = "该成员未登录过简聊";
+"You cannot chat to him now, please remind him to use Jianliao first." = "还不能和TA聊天，请通知他绑定 Teambition 账号或者用 Teambition 账号登录。";
+"Delete Invitation Failed" = "删除邀请者失败";
+"Wechat Session" = "微信";
+"Copy inviteCode alert" = "邀请口令已复制，快去粘贴吧！";
+"Copy to Wechat" = "去微信粘贴";
+"Wechat TimeLine" = "朋友圈";
+"Install Wechat" = "请安装微信";
+
+//Photo
+"Take a Photo" = "拍照";
+"Choose From Library" = "从相册选择";
+
+//Member
+"Manage" = "管理";
+"・Owner" = "・拥有者";
+"・Admin" = "・管理员";
+"・Left member" = "・已离开成员";
+"Join" = "加入";
+"Joined" = "已加入话题";
+"Joinable" = "未加入话题";
+"Members" = "成员";
+"Member" = "添加成员";
+"Add Members" = "添加成员";
+"Member profile" = "成员详情";
+"Invite members from team" = "从团队中选择成员";
+"Check all left members" = "查看所有已离开成员";
+"Left members" = "已离开成员";
+"Invited member" = "已邀请";
+
+//Topic
+"Base Info" = "基本信息";
+"Topic Name" = "话题名称";
+"Topic Target" = "话题目标";
+"Topic Color" = "话题颜色";
+"Private Topic" = "私有话题";
+"Topic Members" = "话题成员";
+"No target" = "暂无目标";
+"Pin to top" = "置顶";
+"Pin" = "置顶";
+"Unpin" = "取消置顶";
+"Mute" = "静音";
+"Cancel Mute" = "取消静音";
+"Leave Topic" = "退出话题";
+"Archive Topic" = "归档话题";
+"Remove Topic" = "删除话题";
+"Topic Settings" = "话题设置";
+"Archived" = "已归档";
+"Archived Topics" = "已归档话题";
+"Recover" = "恢复";
+"Add Topic" = "创建话题";
+"New Topic" = "创建新话题";
+"View All Archived Topics" = "查看已归档话题";
+"topic name exists" = "话题已存在";
+"Invalid topic name" = "无效的话题名称";
+"Topic Archived" = "此话题已归档";
+"Back recover" = "返回恢复";
+
+//Group
+"My Groups" = "我的成员分组";
+"Member Groups" = "成员分组";
+"Add new group" = "添加成员分组";
+"Choose Group" = "选择成员分组";
+"Group Name" = "成员分组名称";
+"No group join" = "目前没有成员分组可以加入\n你可以自己创建新的成员分组";
+"group name exists" = "分组名称已经存在";
+"Invalid group name" = "无效的分组名称";
+"Groups" = "成员分组";
+
+//Member Group
+"Add Member Group" = "添加成员分组";
+"Member Group Name" = "分组名称";
+"Manage Group" = "分组管理";
+"Add members from team" = "从团队添加成员";
+"Remove group" = "删除分组";
+"Sure to remove group ?" = "确定删除分组？";
+
+//Team
+"Team" = "团队";
+"Select team" = "选择团队";
+"Exit Team" = "退出团队";
+"Sure exit Team" = "一旦你退出了该团队，你将不能查看任何该团队的聊天记录。退出团队后，如果想重新加入，请联系团队管理员。";
+"Set as administrator" = "设为管理员";
+"Cancel admin" = "取消管理员";
+"Remove from team" = "从团队移除";
+"Create a new team" = "创建新团队";
+"Create a team for you" = "创建一个属于你的团队";
+"Join team" = "加入团队";
+"Scan to join a team" = "扫码加入团队";
+"Scan to join a existing team" = "扫码加入已存在的团队";
+"Sync team" = "同步团队";
+"Sync from Teambition" = "从Teambition企业同步团队";
+"Sync Teambition team" = "将所有Teambition团队同步到简聊";
+"After you bind the Teambition, Talk can sync your team automatically." = "绑定 Teambition 账号后，简聊会自动将你所在的所有企业分别导入为团队，并保持团队成员的实时同步。";
+"QR Code" = "团队二维码";
+"Scan QR Code" = "扫描二维码";
+"Wrong QR Code" = "错误的二维码";
+"Refresh" = "刷新";
+"Please place the QR code in rectangle" = "请将二维码置于方框中";
+"Photos" = "相册";
+"No QRcode detected" = "未检测到二维码";
+"Others can scan the code to add team" = "扫描二维码加入团队";
+"New team" = "创建新团队";
+"Team name" = "团队名称";
+"Team invite" = "分享团队邀请";
+"Team invite text" = "复制这条消息，打开简聊客户端即可加入【%@】团队 %@ 🎈%@🎈";
+"Sync" = "同步";
+"Sync again" = "再次同步";
+"Enter" = "进入";
+"Sync success" = "同步成功";
+"Team Activity" = "团队动态";
+
+//share to
+"Forward To" = "转发给";
+"Share To" = "分享给";
+"Recent" = "最近";
+"Topics" = "话题";
+"Members" = "成员";
+"Confirm forward to" = "确定转发给:\n %@";
+"Choose" = "选择";
+"Choose Team" = "选择团队";
+
+//default info
+"info-created-task" = "创建了任务";
+"info-created-file" = "上传了文件";
+"info-created-snippet" = "提交了代码片段";
+
+"info-update-purpose" = "更新了目标：";
+"info-update-topic" = "更新了话题：";
+
+"info-create-room" = "创建了话题";
+"info-join-room" = "加入了话题";
+"info-leave-room" ="离开了话题";
+
+"info-join-team" ="加入了团队";
+"info-leave-team" ="离开了团队";
+"info-rss-new-item" ="RSS 更新：";
+"info-new-mail-message" = "来自 Email 的分享";
+
+"info-weibo-new-mention" = "来自微博的@：";
+"info-weibo-new-comment" = "来自微博的评论：";
+"info-weibo-new-repost" ="来自微博的转发：";
+"info-github-new-event" = "来自 GitHub 的事件";
+
+"info-create-integration" = "添加了聚合服务";
+"info-update-integration" = "更新了聚合服务";
+"info-remove-integration" = "移除了聚合服务";
+
+"info-mention" ="@我";
+"info-comment" = "评论";
+"info-repost" = "转发";
+
+"info-commit_comment" = "Commit 被评论";
+"info-create" = "创建分支或者 tag";
+"info-delete" = "删除分支或者 tag";
+"info-fork" = "Fork";
+"info-issue_comment" = "Issue 里评论";
+"info-issues" = "Issue 被更改";
+"info-pull_request_review_comment" = "PR 中增加 Commit";
+"info-pull_request" ="Pull Request";
+"info-push" = "Push";
+
+"info-merge_request" =  "Merge";
+"info-firim-message" =  "来自 FIR.im 的消息:";
+"info-gitlab-new-event" = "来自 GitLab 的事件:";
+
+"info-create-story" = "发布了分享";
+"info-update-story" = "更新了分享";
+"info-pin-notification" = "置顶了通知";
+"info-unpin-notification" = "取消置顶了通知";
+"info-invite-members" = "添加了讨论成员";
+"info-remove-members" = "移除了讨论成员";
+"info-leave-story" = "离开了讨论";
+"info-remove-message" = "删除了消息";
+"info-upload-files" = "上传了附件";
+"info-new-speech" = "发来一段语音";
+"info-invite-you" = "邀请你加入群聊";
+
+"info-invite-team-member" = "邀请了团队成员";
+"info-create-topic-story" = "分享了一个想法";
+"info-create-link-story" = "分享了一个链接";
+"info-create-file-story" = "分享了一个文件";
+
+//date
+"Just now" = "刚刚";
+"secs ago" = "秒钟前";
+"A min ago" = "1分钟前";
+"mins ago" = "分钟前";
+"An hour ago" = "1小时前";
+"hours ago" = "小时前";
+"Yesterday" = "昨天";
+"Short Date Formatter" = "M/d HH:mm";
+"Year Formatter" = "yyyy/M/d HH:mm";
+"Date Formatter" = "yyyy年MMMd日";
+
+//team activity
+"No activity" = "目前还没有动态";
+"Team activity coming soon" = "“团队动态”即将呈现";
+"Team activity introduce" = "在这里你能查看到团队的所有动态，让你对团队的事件一目了然";
+
+//more
+"Favorites" = "个人收藏";
+"Items" = "自动整理";
+"Tags" = "标签";
+"@Messages" = "@我的消息";
+"Integrations" = "聚合";
+"Team Settings" = "团队设置";
+"Other Teams" = "更多团队";
+"App Settings" = "个人设置";
+"Terms of service" = "服务条款";
+"Rate Talk in App Store" = "去App Store给简聊评分";
+"Files" = "文件";
+"Links" = "链接";
+"Posts" = "富文本";
+"Code" = "代码片段";
+"Sheets" = "表单";
+"Loading more items..." = "加载更多数据...";
+"Load more" = "加载更多";
+"No more data" = "全部加载完毕";
+"Seleted Favorites" = "已选择%@条收藏";
+"No favorites" = "没有任何收藏";
+"Add favorites" = "你可以在聊天中长按添加";
+"Filter" = "筛选";
+"Topics or conversations" = "话题或私聊";
+"Private Conversation" = "私聊";
+"Private Chat" = "私聊";
+"Add tag" = "添加标签";
+"Edit tag" = "编辑标签";
+"No tags" = "没有标签";
+"Sure to delete tag?" = "确定删除标签?";
+"Long press on message to add tag" = "在聊天中长按可添加标签";
+"Hide phone" = "在团队中隐藏电话";
+"You have no permission to delete this tag" = "你没有权限删除这个标签";
+"Message Shelf will save all your file, rich text and links." = "你可以在这里查看该聊天中的文件、富文本和链接。";
+"Manage message easily" = "管理信息更容易";
+"Message Shelf will automatically save all your file, rich text and links here." = "自动整理会帮你自动列出聊天中的文件、富文本和链接，方便追溯历史消息。";
+"Nofication all" = "推送所有通知";
+"Nofication about self" = "仅推送私聊与@我的通知";
+"Nofication closed" = "关闭通知";
+"Mute when web online" = "网页在线时停止推送";
+"Notification on work time" = "只在8:00-22:00接收通知";
+"Web online" = "你已经在网页上登录简聊";
+"Mute phone notification" = "停止手机通知";
+"Unmute phone notification" = "恢复手机通知";
+
+//Search
+"Search everything" = "搜索所有";
+"Your search history" = "你的搜索记录将会在这";
+"History" = "历史";
+"Clear history" = "清空历史记录";
+"View more contacts" = "查看更多联系人";
+"View more topics" = "查看更多话题";
+"Conversations" = "消息";
+"View more conversations" = "查看更多消息";
+"Loading results" = "正在加载...";
+"No results" = "没有结果";
+"Search messages about" = "搜索关于“%@”的消息";
+"Unread Messages" = "%d 条未读消息";
+"Search no in favorites" = "“%@” 不在收藏中";
+"Search no in tag" = "“%@” 不在标签中";
+"Search no in @" = "“%@” 不在@中";
+
+"All members" = "所有成员";
+"All positions" = "所有位置";
+"Private chat" = "私聊";
+"No filter" = "不过滤标签";
+"All tags" = "所有标签";
+"All types" = "所有类型";
+
+"Last day" = "一天以内";
+"Last week" = "一周以内";
+"Last month" = "一月以内";
+"Last three month" = "三月以内";
+
+"No message found" = "没有匹配的消息";
+"Research message" = "更换关键字重新查找";
+
+//placeholder
+"Member talk header" = "这是私聊历史记录的开始。私聊是你们两人之间私有的消息。";
+"Topic talk header" = "这个话题是%@在%@日创建，它的目标是: “%@”。";
+
+"New Begin" = "还没有新消息\n马上进入话题发起讨论吧！";
+"Go to General" = "开始聊天";
+
+"Welcome to Talk" = "欢迎来到简聊";
+"Welcome to Talk after signup" = "欢迎来到简聊";
+"Add new topic" = "创建新话题";
+
+"Topic placeholder" = "这是话题的开始";
+"private placeholder" = "这是私聊的开始";
+"Talkai placeholder" = "我是小艾";
+"Create by comment placeholder" = "这个话题由%@于%@创建\n点击右上角「设置」按钮\n可邀请更多成员加入话题";
+"General comment placeholder" = "这是一个默认所有团队成员都加入的话题\n这里可以发布团队的公告";
+"Create story by comment placeholder" = "这个分享由%@于%@发布\n点击右上角「设置」按钮\n可以看到成员信息";
+"Private comment placeholder" = "这是私聊的开始\n私聊的消息只有你和对方可见";
+"Talkai comment placeholder" = "简聊官方小助手\n第一时间为你带来简聊的最新功能\n你也可以给我发消息与文件\n我会为你永久保存";
+
+"NO content" = "没有相应的筛选结果";
+"NO data reminder" = "对话中的文件、富文本、链接\n和表单,会自动出现在这里。";
+
+//voice
+"Tap to speak" = "按住 说话";
+"Release to end" = "松开 结束";
+"Slide up to cancel" = "手指上滑，取消发送";
+"Release to cancel" = "松开手指，取消发送";
+"Voice" = "[语音]";
+"Message too short" = "录音时间过短";
+"No Record permission" = "没有录音权限，请在设置里打开麦克风权限";
+
+//Color
+//Topic Color
+"Purple" = "紫";
+"Indigo" = "靛";
+"Blue" = "蓝";
+"Cyan" = "青";
+"Grass" = "绿";
+"Yellow" = "黄";
+//Team Color
+"Grape" = "葡萄";
+"Blueberry" = "蓝莓";
+"Ocean" = "海洋";
+"Mint" = "薄荷 ";
+"Tea" = "抹茶";
+"Ink" = "墨水";
+
+//UIPreviewActionItem
+"Thanks!" = "谢谢!";
+"Talk later?" = "稍后再聊?";

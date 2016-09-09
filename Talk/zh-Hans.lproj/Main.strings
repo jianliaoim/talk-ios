@@ -1,0 +1,220 @@
+
+/* Class = "IBUINavigationItem"; title = "AddMember"; ObjectID = "0Ov-HC-RqT"; */
+"0Ov-HC-RqT.title" = "添加成员";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "0gF-xc-lBU"; */
+"0gF-xc-lBU.title" = "保存";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "4Di-ee-jdK"; */
+"4Di-ee-jdK.title" = "简聊";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Base Info"; ObjectID = "4fU-NF-gLs"; */
+"4fU-NF-gLs.headerTitle" = "基本信息";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "5R3-KO-fWt"; */
+"5R3-KO-fWt.title" = "下一步";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "6D5-tx-o02"; */
+"6D5-tx-o02.title" = "简聊";
+
+/* Class = "IBUINavigationItem"; title = "Name"; ObjectID = "78Q-Gr-wk8"; */
+"78Q-Gr-wk8.title" = "姓名";
+
+/* Class = "IBUISegmentedControl"; 7Hn-8e-5an.segmentTitles[0] = "Joined"; ObjectID = "7Hn-8e-5an"; */
+"7Hn-8e-5an.segmentTitles[0]" = "已加入话题";
+
+/* Class = "IBUISegmentedControl"; 7Hn-8e-5an.segmentTitles[1] = "Recommend"; ObjectID = "7Hn-8e-5an"; */
+"7Hn-8e-5an.segmentTitles[1]" = "未加入话题";
+
+/* Class = "IBUITabBarItem"; title = "Members"; ObjectID = "9RO-9A-dUL"; */
+"9RO-9A-dUL.title" = "成员";
+
+/* Class = "IBUIBarButtonItem"; title = "New Team"; ObjectID = "CDH-Op-ZCe"; */
+"CDH-Op-ZCe.title" = "添加";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Fka-aN-59o"; */
+"Fka-aN-59o.text" = "标题";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "IW6-aO-EoV"; */
+"IW6-aO-EoV.text" = "名称";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "JRR-l7-OSI"; */
+"JRR-l7-OSI.text" = "Detail";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "LZh-DV-WZy"; */
+"LZh-DV-WZy.title" = "下一步";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "MAJ-Hj-jHe"; */
+"MAJ-Hj-jHe.title" = "取消";
+
+/* Class = "IBUIBarButtonItem"; title = "Setting"; ObjectID = "N3p-41-xdX"; */
+"N3p-41-xdX.title" = "设置";
+
+/* Class = "IBUINavigationItem"; title = "TopicSetting"; ObjectID = "RYx-Gp-BrM"; */
+"RYx-Gp-BrM.title" = "话题设置";
+
+/* Class = "IBUITextField"; placeholder = "Topic Name"; ObjectID = "RnN-ae-w0s"; */
+"RnN-ae-w0s.placeholder" = "话题名称";
+
+/* Class = "IBUITableViewController"; title = "TopicSetting"; ObjectID = "RvG-XF-Ymd"; */
+"RvG-XF-Ymd.title" = "话题设置";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "SfG-8R-JQw"; */
+"SfG-8R-JQw.title" = "取消";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "UGW-EB-Nvf"; */
+"UGW-EB-Nvf.title" = "登录";
+
+/* Class = "IBUILabel"; text = "Talk.ai, about easy teamwork"; ObjectID = "UJL-Zp-5sz"; */
+"UJL-Zp-5sz.text" = "简聊一下 轻松协作";
+
+/* Class = "IBUITextField"; placeholder = "Topic Purpose"; ObjectID = "Uwq-4A-WTf"; */
+"Uwq-4A-WTf.placeholder" = "话题目标";
+
+/* Class = "IBUITabBarItem"; title = "Recent"; ObjectID = "XCQ-Gv-wgU"; */
+"XCQ-Gv-wgU.title" = "最近";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "YJp-sP-Xec"; */
+"YJp-sP-Xec.text" = "名字";
+
+/* Class = "IBUIButton"; normalTitle = "New Topic"; ObjectID = "Yg8-ea-ZmD"; */
+"Yg8-ea-ZmD.normalTitle" = "新话题";
+
+/* Class = "IBUILabel"; text = "For us, Talk.ai really enabled email-free teamwork."; ObjectID = "bLO-aF-vJK"; */
+"bLO-aF-vJK.text" = "“使用简聊进行团队沟通后，我几乎不再需要发送内部邮件了”";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "c9d-ei-VB7"; */
+"c9d-ei-VB7.text" = "Detail";
+
+/* Class = "IBUITabBarItem"; title = "Me"; ObjectID = "cGJ-EE-sPe"; */
+"cGJ-EE-sPe.title" = "更多";
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "cMR-eO-4K7"; */
+"cMR-eO-4K7.text" = "邮箱";
+
+/* Class = "IBUITabBarItem"; title = "Topics"; ObjectID = "cVb-gA-DhY"; */
+"cVb-gA-DhY.title" = "话题";
+
+/* Class = "IBUILabel"; text = "Avatar"; ObjectID = "d3y-2E-T3a"; */
+"d3y-2E-T3a.text" = "头像";
+
+/* Class = "IBUINavigationItem"; title = "New Topic"; ObjectID = "e8u-P5-cj1"; */
+"e8u-P5-cj1.title" = "创建新话题";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Settings"; ObjectID = "fRM-0f-RYW"; */
+"fRM-0f-RYW.headerTitle" = "基本设置";
+
+/* Class = "IBUILabel"; text = "话题目标"; ObjectID = "ftS-5e-GlC"; */
+"ftS-5e-GlC.text" = "话题目标";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Topic Members"; ObjectID = "g2z-q8-GdT"; */
+"g2z-q8-GdT.headerTitle" = "话题成员";
+
+/* Class = "IBUILabel"; text = "话题名称"; ObjectID = "hdy-05-J1R"; */
+"hdy-05-J1R.text" = "话题名称";
+
+/* Class = "IBUILabel"; text = "Notification"; ObjectID = "3ov-Jy-OKx"; */
+"3ov-Jy-OKx.text" = "通知设置";
+
+/* Class = "IBUILabel"; text = "简聊"; ObjectID = "ikM-9Y-o5N"; */
+"ikM-9Y-o5N.text" = "简聊";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ioF-tw-xRp"; */
+"ioF-tw-xRp.text" = "标题";
+
+/* Class = "IBUINavigationItem"; title = "Teams"; ObjectID = "jiO-4O-qdb"; */
+"jiO-4O-qdb.title" = "选择团队";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "joY-vB-IBp"; */
+"joY-vB-IBp.title" = "设置";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "len-5w-w4P"; */
+"len-5w-w4P.text" = "标题";
+
+/* Class = "IBUIButton"; normalTitle = "Create New Account"; ObjectID = "nll-y3-HlX"; */
+"nll-y3-HlX.normalTitle" = "注册新帐号";
+
+/* Class = "IBUITextField"; placeholder = "Team Name"; ObjectID = "obz-0p-GMv"; */
+"obz-0p-GMv.placeholder" = "团队名称";
+
+/* Class = "IBUINavigationItem"; title = "Members"; ObjectID = "rdT-u7-Xd1"; */
+"rdT-u7-Xd1.title" = "成员";
+
+/* Class = "IBUINavigationItem"; title = "New Team"; ObjectID = "s5I-xm-O6Y"; */
+"s5I-xm-O6Y.title" = "创建新团队";
+
+/* Class = "IBUINavigationItem"; title = "Personal Info"; ObjectID = "sXu-9c-cvV"; */
+"sXu-9c-cvV.title" = "个人详情";
+
+/* Class = "IBUILabel"; text = "Current Team"; ObjectID = "XXF-sB-u25"; */
+"XXF-sB-u25.text" = "当前团队";
+
+/* Class = "IBUILabel"; text = "Switch Team"; ObjectID = "B43-Cj-BMG"; */
+"B43-Cj-BMG.text" = "切换团队";
+
+/* Class = "IBUINavigationItem"; title = "Talk"; ObjectID = "uh5-eg-sMO"; */
+"uh5-eg-sMO.title" = "简聊";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "vMx-lr-8uO"; */
+"vMx-lr-8uO.text" = "标题";
+
+/* Class = "IBUIButton"; normalTitle = "Login with Teambition Account"; ObjectID = "xe0-uG-7tF"; */
+"xe0-uG-7tF.normalTitle" = "使用Teambition帐号登录";
+
+/* Class = "IBUILabel"; text = "Logout"; ObjectID = "xxZ-Ug-XcZ"; */
+"xxZ-Ug-XcZ.text" = "登出帐号";
+
+/* Class = "IBUIButton"; normalTitle = "New Member"; ObjectID = "yLe-56-wIn"; */
+"yLe-56-wIn.normalTitle" = "新成员";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "yiq-pv-cB3"; */
+"yiq-pv-cB3.placeholder" = "名称";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "yjm-r4-i81"; */
+"yjm-r4-i81.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "zBi-0k-mJb"; */
+"zBi-0k-mJb.text" = "名称";
+
+"Niy-jL-tr2.normalTitle" = "进入聊天";
+
+"cvn-T1-rqx.normalTitle" = "管理";
+
+"xZL-43-Dtd.title" = "通知设置";
+
+"GOe-T2-KvF.text" = "推送通知";
+
+"SmC-bH-XD9.text" = "颜色";
+"eCR-HL-siU.text" = "话题颜色";
+
+"JTB-Yo-gDs.title" = "团队设置";
+
+"vOw-vQ-B7u.text" = "团队名称";
+
+"3ez-bJ-lnH.text" = "颜色";
+
+"dbg-jL-GvJ.text" = "退出团队";
+
+"aIO-gN-awx.text" = "颜色";
+
+"1Rq-1r-WPZ.text" = "退出登录";
+
+"emN-P0-lu5.text" = "服务条款";
+
+"Kka-fj-yCE.text" = "意见反馈";
+
+"zXM-SM-WMb.header" = "标题";
+
+"lj9-Us-5Oo.header" = "内容";
+
+"oJ5-SI-9HS.text" = "请输入您的意见或反馈";
+
+"lyO-7W-jbe.text" = "名称";
+
+"Cya-Aw-vrs.text" = "私有话题";
+
+"4N1-TW-wHc.text" = "私有话题";
+
+"Wpx-rN-hi6.text" = "查看所有已归档话题";
+
+"8wG-zd-MHS.text" = "没有已归档的话题";

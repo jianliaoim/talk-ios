@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Talk
+//
+//  Created by Shire on 9/18/14.
+//  Copyright (c) 2014 Teambition. All rights reserved.
+//
+
+
+#ifndef Talk_PrefixHeader_pch
+#define Talk_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+    #import <CocoaLumberjack/CocoaLumberjack.h>
+
+    #ifdef DEBUG
+    static int ddLogLevel = DDLogLevelVerbose;
+    #else
+        static  int ddLogLevel = DDLogLevelError;
+    #endif
+
+    #import "JLInternationalManager.h"
+    #undef NSLocalizedString
+    #define NSLocalizedString(key, comment)\
+    [[JLInternationalManager currentLanguageBundle] localizedStringForKey:(key) value:@"" table:nil]
+#endif

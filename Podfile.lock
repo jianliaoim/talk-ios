@@ -1,0 +1,195 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMPopTip (0.10.1)
+  - CocoaLumberjack (2.0.0-beta4):
+    - CocoaLumberjack/Default (= 2.0.0-beta4)
+    - CocoaLumberjack/Extensions (= 2.0.0-beta4)
+  - CocoaLumberjack/Core (2.0.0-beta4)
+  - CocoaLumberjack/Default (2.0.0-beta4):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta4):
+    - CocoaLumberjack/Default
+  - CTAssetsPickerController (2.9.5)
+  - FastEasyMapping (1.0.1)
+  - FLAnimatedImage (1.0.8)
+  - FrameAccessor (2.0)
+  - Haneke (1.0.1)
+  - Hanzi2Pinyin (1.0.0)
+  - hpple (0.2.0)
+  - JazzHands (0.2.1)
+  - JLRoutes (1.5.3)
+  - libPhoneNumber-iOS (0.8.8)
+  - M13BadgeView (1.0.4)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+  - Mantle (1.5.6):
+    - Mantle/extobjc (= 1.5.6)
+  - Mantle/extobjc (1.5.6)
+  - Masonry (0.6.3)
+  - MGSwipeTableCell (1.5.1)
+  - Mixpanel (2.9.1):
+    - Mixpanel/Mixpanel (= 2.9.1)
+  - Mixpanel/Mixpanel (2.9.1)
+  - MJRefresh (1.4.7)
+  - MMMarkdown (0.5)
+  - MSCMoreOptionTableViewCell (2.2)
+  - MTDates (1.0.2)
+  - NSDate+TimeAgo (1.0.3)
+  - pop (1.0.8)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SHActionSheetBlocks (2.3.4)
+  - SocketRocket (0.4.1)
+  - SSKeychain (1.2.3)
+  - StyledPageControl (1.0)
+  - SZLoadingTableViewController (0.1.0)
+  - TTTAttributedLabel (1.13.4)
+  - TWRProgressView (0.1)
+  - UIAlertView+Blocks (0.9)
+  - UIResponder+KeyboardCache (0.1)
+  - UMengAnalytics (3.6.4)
+  - VBFPopFlatButton (0.0.6):
+    - pop
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking
+  - AMPopTip
+  - CocoaLumberjack (= 2.0.0-beta4)
+  - CTAssetsPickerController (~> 2.9.0)
+  - FastEasyMapping
+  - FLAnimatedImage (~> 1.0.8)
+  - FrameAccessor
+  - Haneke
+  - Hanzi2Pinyin (from `https://github.com/zzq889/hanzi2pinyin.git`)
+  - hpple
+  - JazzHands (~> 0.2.1)
+  - JLRoutes
+  - libPhoneNumber-iOS (~> 0.8.5)
+  - M13BadgeView (from `https://github.com/Marxon13/M13BadgeView.git`)
+  - MagicalRecord (~> 2.2.0)
+  - Mantle (~> 1.5.4)
+  - Masonry
+  - MGSwipeTableCell
+  - Mixpanel
+  - MJRefresh (~> 1.4.7)
+  - MMMarkdown (~> 0.5)
+  - MSCMoreOptionTableViewCell
+  - MTDates
+  - NSDate+TimeAgo
+  - ReactiveCocoa
+  - ReactiveViewModel
+  - SDWebImage (from `https://github.com/liyong03/SDWebImage.git`)
+  - SHActionSheetBlocks
+  - SocketRocket (= 0.4.1)
+  - SSKeychain
+  - StyledPageControl
+  - SZLoadingTableViewController
+  - TTTAttributedLabel
+  - TWRProgressView
+  - UIAlertView+Blocks
+  - UIResponder+KeyboardCache
+  - UMengAnalytics
+  - VBFPopFlatButton
+  - YLGIFImage
+
+EXTERNAL SOURCES:
+  Hanzi2Pinyin:
+    :git: https://github.com/zzq889/hanzi2pinyin.git
+  M13BadgeView:
+    :git: https://github.com/Marxon13/M13BadgeView.git
+  SDWebImage:
+    :git: https://github.com/liyong03/SDWebImage.git
+
+CHECKOUT OPTIONS:
+  Hanzi2Pinyin:
+    :commit: 2ddc4b98f2a7e101f61d3ef2e125ed69de403493
+    :git: https://github.com/zzq889/hanzi2pinyin.git
+  M13BadgeView:
+    :commit: cdb065a55cfe492d67061907b7e0c222fb99e035
+    :git: https://github.com/Marxon13/M13BadgeView.git
+  SDWebImage:
+    :commit: d3567259f2d1c8a1b191563aef1357eed081b600
+    :git: https://github.com/liyong03/SDWebImage.git
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  AMPopTip: b0b5d009f3ed47b10f118438a18e0ab5cd03c40d
+  CocoaLumberjack: 44fc4ab64ee7cb9703df5de6d5012cf917775938
+  CTAssetsPickerController: b413fece2194ae3dbf22fbc544cf6f2a6d516a4d
+  FastEasyMapping: 8f0e89e1e26107370534e526c0d5f1fc9889912b
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
+  Haneke: d60be8b96b228633b24708dd153169d6849d6f78
+  Hanzi2Pinyin: fa7724ebda66a2a061ed3d92aa6948f3fb0246c6
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  JazzHands: d2343c3f2f9d70598d0cad8f521ce3893842a44a
+  JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
+  libPhoneNumber-iOS: fe877b7c44c270a9da2082d3e2892d5316f6a2f9
+  M13BadgeView: 377c3a232d84f88b02dfe0967b8b64b2a53dd54b
+  MagicalRecord: 2dc87179ae7c1f2a274442624ec65a07d4357a6f
+  Mantle: a197db93e0f1e36194b1fdbc078219a8492eaef2
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MGSwipeTableCell: a51fa670c01f0aa048f12af040acebf315223137
+  Mixpanel: 5ca24b2a05f4c77fe9bcfe7671d681d0f3f8d76f
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  MMMarkdown: 74e6a040d7c41419d86c0ec22b2a49755a10e0fd
+  MSCMoreOptionTableViewCell: 507cd8fdf01392d89a17884b4f87008da36e87e3
+  MTDates: aa8006ac046c3fc4f2bb9df95603e9b5bdac9467
+  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  SHActionSheetBlocks: 884fb3819dbe6760026e2b9976365e72807632a8
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  StyledPageControl: b49f33cb65b99370a78a490fac127b1ca6472fd0
+  SZLoadingTableViewController: 049dd33d665704228fd07a03160e95c2b7d84496
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  TWRProgressView: 76804e42eb7f1a73a851b3b38c469b4dea15c27e
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UIResponder+KeyboardCache: dc1b7ff925c25ddb58b289bc71a3724c269767ef
+  UMengAnalytics: d24fb5200e13d2874f36b6337bc129b96511c54e
+  VBFPopFlatButton: 782344da63f104c279a857d806e065117a7e1196
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+PODFILE CHECKSUM: 48bc74308c90fc88aa0d5f7025647fa643cefee7
+
+COCOAPODS: 1.0.1
